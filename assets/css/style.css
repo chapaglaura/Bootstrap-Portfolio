@@ -156,6 +156,7 @@ input[type=text] {
 .portfolio-item {
     position: relative;
     margin: 20px 0;
+    height: 100%;
 }
 
 .portfolio-item img {
@@ -164,11 +165,11 @@ input[type=text] {
     width: 100%;
 }
 
-.portfolio-item:hover > img {
+.portfolio-item a:hover > img {
     opacity: 0.5;
 }
 
-.portfolio-item:hover > h4 {
+.portfolio-item a:hover > h4 {
     background-color: white;
     color: #444444;
 }
